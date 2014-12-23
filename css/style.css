@@ -1089,7 +1089,16 @@
 
 	.soundcloud iframe {
 	    width: 100% !important;
-	    height: 100% !important;
+	}
+
+	.niconico {
+	    position: relative;
+	    width: 100%;
+	    padding: 0 2em 0 2em;
+	}
+
+	.niconico embed {
+	    width: 100% !important;
 	}
 
 /*********************************************************************************/
