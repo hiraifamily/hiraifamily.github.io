@@ -951,7 +951,7 @@
 	#news
 	{
 		background: #fff;
-		padding: 4.5em 0 4.5em 0;
+		padding: 2.5em 0 2.5em 0;
 		margin: 0 0 2em 0;
 	}
 
@@ -982,7 +982,7 @@
 		    display: block;
 		}
 
-		.dateBlock .media
+		.dateBlock .news
 		{
 		    display: inline-block;
 		    color: #ffc000;
@@ -1061,6 +1061,24 @@
 		{
 			padding-top: 2em;
 		}		
+
+/*********************************************************************************/
+/* Media                                                                         */
+/*********************************************************************************/
+
+	.media {
+	    display: block;
+	    width: 100%;
+	    padding: 2em 0 2em 0;
+	    text-align: center;
+	}
+
+	.media title {
+	    text-align: center;
+	    font-size: 25pt;
+	    display: block;
+	    margin: 1em 0 0 0;
+	}
 	
 /*********************************************************************************/
 /* Footer                                                                        */
