@@ -1081,24 +1081,15 @@
 	    margin: 1em 0 0 0;
 	}
 
-	.soundcloud {
+	.iframewrap {
 	    position: relative;
 	    width: 100%;
-	    padding: 0 2em 0 2em;
+	    padding: 0 4em 0 4em;
 	}
 
-	.soundcloud iframe {
-	    width: 100% !important;
-	}
-
-	.niconico {
-	    position: relative;
-	    width: 100%;
-	    padding: 0 2em 0 2em;
-	}
-
-	.niconico embed {
-	    width: 100% !important;
+	.iframewrap iframe {
+	    max-width: 100% !important;
+	    max-height: 100% !important;
 	}
 
 /*********************************************************************************/

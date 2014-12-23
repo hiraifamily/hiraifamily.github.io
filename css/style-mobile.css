@@ -375,7 +375,6 @@
 /* Media                                                                         */
 /*********************************************************************************/
 
-	.niconico embed {
-	    width: 100% !important;
+	.iframewrap iframe {
 	    height: 100% !important;
 	}
